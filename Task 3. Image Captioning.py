@@ -58,7 +58,6 @@ def generate_caption(image_path):
     generated_caption = ' '.join(initial_caption[1:-1])
     return generated_caption
 
-# Test the model with an example image
 image_path = 'path/to/your/image.jpg'
 caption = generate_caption(image_path)
 print(f'Caption for the image: {caption}')
